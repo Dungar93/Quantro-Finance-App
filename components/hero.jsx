@@ -42,7 +42,7 @@ const HeroSection = () => {
    <Link href="/dashboard">
    <Button size= "lg" className="px-8" >Get Started</Button>
    </Link>
-  <Link href="https://github.com/">
+  <Link href="https://github.com/Dungar93/Quantro-Finance-App/">
    <Button size= "lg" variant ='outline'className="px-8" >Source Code Here </Button>
    </Link>
     </div>

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
+import { Toaster } from "sonner";
 
 const inter = Inter({subsets:["latin"]})// for the font (this is the way to import the font in nextjs)
 export const metadata = {
@@ -20,6 +21,8 @@ export default function RootLayout({ children }) {
         <main className="min-h-screen">
           {children} 
         </main>
+
+        <Toaster richColors/>
 
     
         {/*footer*/}
