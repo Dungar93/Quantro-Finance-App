@@ -1,7 +1,7 @@
 import { getDashboardData, getUserAccounts } from '@/actions/dashboard'
 import CreateAccountDrawer from '@/components/create-account-drawer'
 import { Card, CardContent } from '@/components/ui/card'
-import { AccountType } from '@/lib/generated/prisma'
+
 import { Plus } from 'lucide-react'
 import React, { Suspense } from 'react'
 import AccountCard from './_componenets/account-card'

@@ -10,7 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Switch } from './ui/switch'
 import useFetch from '@/hooks/use-fetch'
 import { createAccount } from '@/actions/dashboard'
-import { date } from 'zod'
+
 import { Loader2 } from 'lucide-react'
 import { toast } from 'sonner'
 const CreateAccountDrawer = ({children}) => {
