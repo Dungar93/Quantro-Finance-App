@@ -1,6 +1,8 @@
-// eslint.config.mjs
+import nextPlugin from "eslint-plugin-next";
+
 export default [
   {
-    extends: ["next/core-web-vitals"],
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    ...nextPlugin.configs["core-web-vitals"],
   },
 ];
