@@ -39,7 +39,7 @@ const CreateAccountDrawer = ({children}) => {
             reset()
             setOpen(false)
         }
-    },[createAccountLoading,newAccount]
+    },[createAccountLoading, newAccount, reset]
 )
 useEffect(()=>{
     if (error){

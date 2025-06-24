@@ -33,7 +33,7 @@ const ReciptScanner = ({onScanComplete}) => {
             onScanComplete(scannedData);
             toast.success("Recipt scanned successfully")
         }
-    },[scanReciptLoading,scannedData])
+    },[scanReciptLoading, scannedData, onScanComplete])
   return (
     <div>
       <input type='file'

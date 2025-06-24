@@ -46,7 +46,7 @@ await updateBudgetFn(amount)
             setIsEditing(false);
             toast.success("Budget updated successfully")
         }
-    })
+    },[updatedBudget?.success])
 
      useEffect(()=>{
         if (error){
