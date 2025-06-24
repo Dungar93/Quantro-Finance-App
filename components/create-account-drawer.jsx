@@ -80,7 +80,7 @@ useEffect(()=>{
                  </SelectTrigger>
                  <SelectContent>
                     <SelectItem value="CURRENT">Current</SelectItem>
-                     <SelectItem value="SAVINGS">Savings</SelectItem>
+                     <SelectItem value="SAVING">Saving</SelectItem>
                        
                 </SelectContent>
                     </Select>
