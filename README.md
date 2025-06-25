@@ -71,9 +71,8 @@ README.md
 ```bash
 git clone https://github.com/your-username/full-stack-finance-platform.git
 cd full-stack-finance-platform
-
-
-
+npm install
+npm run dev
 
 
 
